@@ -7,6 +7,7 @@ import DemoPage from "./pages/DemoPage";
 
 // ==================== components ====================
 import Navbar from "./components/general/Navbar";
+import Footer from "./components/landing/Footer";
 function App() {
     return (
         <>
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/demo" element={<DemoPage />} />
             </Routes>
+            <Footer />
         </>
     );
 }
