@@ -17,14 +17,18 @@ function DisplayContainer({
         >
             <Box margin="10px">
                 <Box
-                    width="200px"
-                    height="200px"
+                    width={["160px", "120px", "null", "160px"]}
+                    height={["160px", "120px", null, "160px"]}
                     borderRadius={"50%"}
                     margin="auto"
                     background="#5DF6B6"
                     display="flex"
                 >
-                    <Image src={image} width="100px" margin="auto" />
+                    <Image
+                        src={image}
+                        width={["80px", "60px", null, "80px"]}
+                        margin="auto"
+                    />
                 </Box>
                 <br />
                 <CustomText fontSize="25px" color="#32956B">

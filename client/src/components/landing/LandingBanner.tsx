@@ -38,7 +38,12 @@ function LandingBanner() {
                 </CustomText>
                 <br />
                 <Box marginTop="5px" display="flex">
-                    <CustomButton handleClick={toDemo} label="Try it" />
+                    <CustomButton
+                        handleClick={toDemo}
+                        label="Try it"
+                        buttonColor="#09b809"
+                        borderRadius={2}
+                    />
                 </Box>
             </Box>
         </Box>

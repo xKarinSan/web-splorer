@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import {
     Box,
-    Code,
     Input,
     InputGroup,
     IconButton,
@@ -178,11 +177,12 @@ function DemoPage() {
             </Box>
             <Box padding="10px">
                 <CustomHeader fontSize="28px">HTML output:</CustomHeader>
-                {/* <br /> */}
+                <br />
                 <Textarea
                     value={htmlRes ? htmlRes : ""}
                     height="70vh"
                     placeholder="Result in HTML format here"
+                    width={["100%", null, null, "80%","70%"]}
                 ></Textarea>
             </Box>
         </Box>

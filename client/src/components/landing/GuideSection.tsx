@@ -25,7 +25,7 @@ function GuideSection() {
     return (
         <Box
             padding="15px"
-            id="why"
+            id="how"
             width={["100%", null, "80%", "70%"]}
             display="grid"
             margin="auto"
