@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Image, Card } from "@chakra-ui/react";
 import { LandingDisplayCard } from "../../types/landing/display";
 

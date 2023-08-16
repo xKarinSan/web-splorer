@@ -157,7 +157,7 @@ const MobileNav = () => {
 };
 
 const MobileNavItem = ({ label, href }: NavItem) => {
-    const { isOpen, onToggle } = useDisclosure();
+    const { onToggle } = useDisclosure();
 
     return (
         <Stack spacing={4} onClick={onToggle}>

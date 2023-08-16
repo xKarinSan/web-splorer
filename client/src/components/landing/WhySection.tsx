@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, SimpleGrid } from "@chakra-ui/react";
 // =========================== components ===========================
 import CustomHeader from "../universal/CustomHeader";
