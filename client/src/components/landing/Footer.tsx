@@ -15,7 +15,8 @@ function Footer() {
                 Made with ❤️ by{" "}
                 <Link
                     href="https://github.com/xKarinSan/"
-                    as="span"
+                    as="a"
+                    target="_blank"
                     fontWeight={"bold"}
                 >
                     Siang Meng
@@ -28,8 +29,9 @@ function Footer() {
                     justifyContent={"center"}
                 >
                     <Link
-                        href="https://github.com/xKarinSan/"
-                        as="span"
+                        href="https://github.com/xKarinSan/web-splorer"
+                        as="a"
+                        target="_blank"
                         fontWeight={"bold"}
                         display={"block"}
                         margin="auto"
